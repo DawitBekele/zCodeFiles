@@ -1,0 +1,2 @@
+in order to store an object in a hash map, a hash function need to determine hash key for each object
+inorder to determine the hash value, the hash code methods of the Object need to be overriden inside the  employee class

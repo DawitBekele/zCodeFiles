@@ -1,0 +1,3 @@
+since the equals method in the employee class is an overloaded not the override the object class equals
+method.the list method(contains) compares based on the objects overriden equals method(if there is). since there
+is no equals mehtod overriden  in the employee class the list uses the object class equals method to compare the employee obkects.

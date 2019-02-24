@@ -1,0 +1,4 @@
+when the jvm calls method it does based on the actual object not the reference of the object
+so the the refrerece p1 point to an object of PersonWithJob so its equals methods will be envoked, when compred with p2(an object of person)
+they are not equal.Where as in the second call of the equals method jvm call person's equals as the objet it refrence is type person
+so when we compare the two object based on this person's equal method, they have the same name and hence they are equal.

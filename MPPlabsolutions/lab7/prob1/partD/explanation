@@ -1,0 +1,5 @@
+Though the hash code and equals methods were overriden in the Employee class to determine
+equality between objects and to store in the hash map,  the hash code need to be computed based on
+the type and number of parameters used in the equals overriden method. here for the equals method
+three parameters were used(name,salary and visited) but for the hash code(name and salary) were used
+to compute the hash code. so this is not the proper way to do it for this scenario.
